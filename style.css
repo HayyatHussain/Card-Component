@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  html {
+    display: table;
+    margin: auto;
+  }
+
+  body {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  #card {
+    width: 600px;
+    height: 450px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  #left-section {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    vertical-align: top;
+  }
+  
+  #right-section {
+    display: inline-block;
+    height: 100%;
+    width:  50%;
+    vertical-align: top;
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  p  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 18px;
+    margin-bottom: -8px;
+  }
+  
+  h1, p, ul {
+    padding-left: 30px
+  }
+  
+  li {
+    color: hsl(228, 12%, 48%);
+    list-style: none;
+    padding-bottom: 4.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+  
+  #new-price {
+    font-family: 'Fraunces', serif;
+    display: inline-block;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    padding-left: 30px; 
+  }
+  
+  #old-price {
+    display: inline-block;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    padding-left: 14px;
+    padding-bottom: 26px;
+    position: relative;
+    top: -5.5px;
+    opacity: 0.9;
+  }
+  
+  button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    width: 80%;
+    height: 10.6%;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #22aa78;
+    transform: scale(1.02);
+  }
+  
+  h1 {
+    font-family: 'Fraunces', serif;
+    opacity: 0.9;
+  }
+  
+  
+  #left-section img {
+    height: 100%;
+    width: 100%;
+  }
+
+  svg {
+    position: relative;
+    left: -9px;
+    bottom: -4px;
+  }
